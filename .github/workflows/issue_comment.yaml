@@ -3,6 +3,7 @@ name: create comment on new issues created in github
 on:
   issues:
     -  types: [opened]
+  workflow_dispatch:
 
 jobs:
   comment-with-action:
